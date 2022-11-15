@@ -1,0 +1,16 @@
+15-11-22 18:31:18: Namespace(exp_name='crosspoint_PCM_CORRALGN_shape_model', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='shapenet', trgt_dataset='modelnet', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+15-11-22 18:31:19: Using GPUs [0], from 4 devices available
+15-11-22 18:31:19: number of test examples in modelnet : 856
+15-11-22 18:31:19: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+15-11-22 18:31:21: number of test examples in shapenet: 2492
+15-11-22 18:31:21: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+15-11-22 18:31:21: number of test examples in modelnet : 856
+15-11-22 18:31:21: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+15-11-22 18:34:17: Namespace(exp_name='crosspoint_PCM_CORRALGN_shape_model', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='shapenet', trgt_dataset='modelnet', is_spst='True', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+15-11-22 18:34:18: Using GPUs [0], from 4 devices available
+15-11-22 18:34:18: number of test examples in modelnet : 856
+15-11-22 18:34:18: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+15-11-22 18:34:20: number of test examples in shapenet: 2492
+15-11-22 18:34:20: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+15-11-22 18:34:20: number of test examples in modelnet : 856
+15-11-22 18:34:20: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
