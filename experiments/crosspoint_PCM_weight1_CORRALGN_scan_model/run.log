@@ -1,0 +1,44 @@
+15-11-22 13:56:59: Namespace(exp_name='crosspoint_PCM_weight1_CORRALGN_scan_model', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='scannet', trgt_dataset='shapenet', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+15-11-22 13:57:00: Using GPUs [0], from 4 devices available
+15-11-22 13:57:00: number of test examples in shapenet: 2492
+15-11-22 13:57:00: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+15-11-22 14:00:36: Namespace(exp_name='crosspoint_PCM_weight1_CORRALGN_scan_model', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='scannet', trgt_dataset='shapenet', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+15-11-22 14:00:37: Using GPUs [0], from 4 devices available
+15-11-22 14:00:37: number of test examples in shapenet: 2492
+15-11-22 14:00:37: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+15-11-22 14:00:40: number of test examples in scannet: 1769
+15-11-22 14:00:40: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+15-11-22 14:00:40: number of test examples in shapenet: 2492
+15-11-22 14:00:40: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+15-11-22 14:01:49: Namespace(exp_name='crosspoint_PCM_weight1_CORRALGN_scan_model', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='scannet', trgt_dataset='modelnet', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+15-11-22 14:01:50: Using GPUs [0], from 4 devices available
+15-11-22 14:01:50: number of test examples in modelnet : 856
+15-11-22 14:01:50: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+15-11-22 14:01:51: number of test examples in scannet: 1769
+15-11-22 14:01:51: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+15-11-22 14:01:51: number of test examples in modelnet : 856
+15-11-22 14:01:51: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+15-11-22 14:07:02: Namespace(exp_name='crosspoint_PCM_weight1_CORRALGN_scan_model', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='scannet', trgt_dataset='modelnet', is_spst='True', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+15-11-22 14:07:03: Using GPUs [0], from 4 devices available
+15-11-22 14:07:03: number of test examples in modelnet : 856
+15-11-22 14:07:03: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+15-11-22 14:07:04: number of test examples in scannet: 1769
+15-11-22 14:07:04: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+15-11-22 14:07:04: number of test examples in modelnet : 856
+15-11-22 14:07:04: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+15-11-22 14:29:20: Namespace(exp_name='crosspoint_PCM_weight1_CORRALGN_scan_model', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='scannet', trgt_dataset='modelnet', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+15-11-22 14:29:20: Using GPUs [0], from 4 devices available
+15-11-22 14:29:20: number of test examples in modelnet : 856
+15-11-22 14:29:20: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+15-11-22 14:29:22: number of test examples in scannet: 1769
+15-11-22 14:29:22: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+15-11-22 14:29:22: number of test examples in modelnet : 856
+15-11-22 14:29:22: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+15-11-22 14:32:17: Namespace(exp_name='crosspoint_PCM_weight1_CORRALGN_scan_model', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='scannet', trgt_dataset='modelnet', is_spst='True', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+15-11-22 14:32:18: Using GPUs [0], from 4 devices available
+15-11-22 14:32:18: number of test examples in modelnet : 856
+15-11-22 14:32:18: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+15-11-22 14:32:19: number of test examples in scannet: 1769
+15-11-22 14:32:19: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+15-11-22 14:32:19: number of test examples in modelnet : 856
+15-11-22 14:32:19: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
