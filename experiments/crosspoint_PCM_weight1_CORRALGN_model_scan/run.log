@@ -1,0 +1,16 @@
+16-11-22 05:03:11: Namespace(exp_name='crosspoint_PCM_weight1_CORRALGN_model_scan', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='modelnet', trgt_dataset='scannet', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+16-11-22 05:03:11: Using GPUs [0], from 4 devices available
+16-11-22 05:03:12: number of test examples in scannet: 1769
+16-11-22 05:03:12: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+16-11-22 05:03:13: number of test examples in modelnet : 856
+16-11-22 05:03:13: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+16-11-22 05:03:13: number of test examples in scannet: 1769
+16-11-22 05:03:13: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+16-11-22 05:06:52: Namespace(exp_name='crosspoint_PCM_weight1_CORRALGN_model_scan', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='modelnet', trgt_dataset='scannet', is_spst='True', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+16-11-22 05:06:53: Using GPUs [0], from 4 devices available
+16-11-22 05:06:53: number of test examples in scannet: 1769
+16-11-22 05:06:53: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+16-11-22 05:06:55: number of test examples in modelnet : 856
+16-11-22 05:06:55: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+16-11-22 05:06:55: number of test examples in scannet: 1769
+16-11-22 05:06:55: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}

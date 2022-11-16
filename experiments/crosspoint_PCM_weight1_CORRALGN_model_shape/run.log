@@ -1,0 +1,16 @@
+16-11-22 04:55:41: Namespace(exp_name='crosspoint_PCM_weight1_CORRALGN_model_shape', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='modelnet', trgt_dataset='shapenet', is_spst='True', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+16-11-22 04:55:41: Using GPUs [0], from 4 devices available
+16-11-22 04:55:42: number of test examples in shapenet: 2492
+16-11-22 04:55:42: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+16-11-22 04:55:43: number of test examples in modelnet : 856
+16-11-22 04:55:43: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+16-11-22 04:55:44: number of test examples in shapenet: 2492
+16-11-22 04:55:44: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+16-11-22 05:00:28: Namespace(exp_name='crosspoint_PCM_weight1_CORRALGN_model_shape', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='modelnet', trgt_dataset='shapenet', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+16-11-22 05:00:29: Using GPUs [0], from 4 devices available
+16-11-22 05:00:29: number of test examples in shapenet: 2492
+16-11-22 05:00:29: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+16-11-22 05:00:31: number of test examples in modelnet : 856
+16-11-22 05:00:31: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+16-11-22 05:00:31: number of test examples in shapenet: 2492
+16-11-22 05:00:31: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}

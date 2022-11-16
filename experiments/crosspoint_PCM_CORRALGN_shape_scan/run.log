@@ -1,0 +1,16 @@
+16-11-22 04:31:22: Namespace(exp_name='crosspoint_PCM_CORRALGN_shape_scan', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='shapenet', trgt_dataset='scannet', is_spst='True', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+16-11-22 04:31:22: Using GPUs [0], from 4 devices available
+16-11-22 04:31:23: number of test examples in scannet: 1769
+16-11-22 04:31:23: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+16-11-22 04:31:25: number of test examples in shapenet: 2492
+16-11-22 04:31:25: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+16-11-22 04:31:25: number of test examples in scannet: 1769
+16-11-22 04:31:25: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+16-11-22 04:35:00: Namespace(exp_name='crosspoint_PCM_CORRALGN_shape_scan', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='shapenet', trgt_dataset='scannet', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+16-11-22 04:35:00: Using GPUs [0], from 4 devices available
+16-11-22 04:35:01: number of test examples in scannet: 1769
+16-11-22 04:35:01: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+16-11-22 04:35:03: number of test examples in shapenet: 2492
+16-11-22 04:35:03: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+16-11-22 04:35:03: number of test examples in scannet: 1769
+16-11-22 04:35:03: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
