@@ -1,0 +1,8 @@
+17-11-22 08:42:36: Namespace(exp_name='PCM_model_shape', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='modelnet', trgt_dataset='shapenet', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+17-11-22 08:42:37: Using GPUs [0], from 4 devices available
+17-11-22 08:42:37: number of test examples in shapenet: 2492
+17-11-22 08:42:37: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+17-11-22 08:42:39: number of test examples in modelnet : 856
+17-11-22 08:42:39: Occurrences count of classes in modelnet test set: {0: 50, 1: 100, 2: 100, 3: 86, 4: 100, 5: 20, 6: 100, 7: 100, 8: 100, 9: 100}
+17-11-22 08:42:39: number of test examples in shapenet: 2492
+17-11-22 08:42:39: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}

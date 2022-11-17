@@ -1,0 +1,69 @@
+15-11-22 06:04:40: Namespace(exp_name='Init Syn-Real (PCM+CL)', out_path='./experiments', dataroot='./data', src_dataset='syn', trgt_dataset='realsense', epochs=10, model='dgcnn', want_images='True', want_align_loss='False', views_agregate='maxpool', seed=1, gpus=[0, 1, 2, 3], DefRec_dist='volume_based_voxels', num_regions=3, DefRec_on_src=False, DefRec_on_trgt='False', apply_PCM=True, batch_size=32, test_batch_size=32, optimizer='ADAM', DefRec_weight=0.0, dropout=0.5, mixup_params=1.0, lr=0.001, momentum=0.9, wd=5e-05, tloss=0.0001, alpha=0.01)
+15-11-22 06:04:40: Using GPUs [0, 1, 2, 3], from 4 devices available
+15-11-22 06:04:47: Occurrences count of classes in source syn train part: {0: 1597, 1: 2048, 2: 2043, 3: 1637, 4: 1636, 5: 2047, 6: 1462, 7: 1439, 8: 1603, 9: 1632}
+15-11-22 06:04:47: Occurrences count of classes in source syn validation part: {0: 399, 1: 512, 2: 510, 3: 411, 4: 408, 5: 511, 6: 367, 7: 359, 8: 401, 9: 407}
+15-11-22 06:04:47: Occurrences count of classes in target realsense train part: {0: 776, 1: 1024, 2: 1024, 3: 818, 4: 816, 5: 1023, 6: 816, 7: 673, 8: 777, 9: 813}
+15-11-22 06:04:47: Occurrences count of classes in target realsense validation part: {0: 192, 1: 256, 2: 256, 3: 206, 4: 204, 5: 256, 6: 204, 7: 168, 8: 194, 9: 202}
+15-11-22 06:14:17: Namespace(exp_name='Init Syn-Real (PCM+CL)', out_path='./experiments', dataroot='./data', src_dataset='syn', trgt_dataset='realsense', epochs=10, model='dgcnn', want_images='True', want_align_loss='False', views_agregate='maxpool', seed=1, gpus=[0, 1, 2, 3], DefRec_dist='volume_based_voxels', num_regions=3, DefRec_on_src=False, DefRec_on_trgt='False', apply_PCM=True, batch_size=32, test_batch_size=32, optimizer='ADAM', DefRec_weight=0.0, dropout=0.5, mixup_params=1.0, lr=0.001, momentum=0.9, wd=5e-05, tloss=0.0001, alpha=0.01)
+15-11-22 06:14:17: Using GPUs [0, 1, 2, 3], from 4 devices available
+15-11-22 06:14:24: Occurrences count of classes in source syn train part: {0: 1597, 1: 2048, 2: 2043, 3: 1637, 4: 1636, 5: 2047, 6: 1462, 7: 1439, 8: 1603, 9: 1632}
+15-11-22 06:14:24: Occurrences count of classes in source syn validation part: {0: 399, 1: 512, 2: 510, 3: 411, 4: 408, 5: 511, 6: 367, 7: 359, 8: 401, 9: 407}
+15-11-22 06:14:24: Occurrences count of classes in target realsense train part: {0: 776, 1: 1024, 2: 1024, 3: 818, 4: 816, 5: 1023, 6: 816, 7: 673, 8: 777, 9: 813}
+15-11-22 06:14:24: Occurrences count of classes in target realsense validation part: {0: 192, 1: 256, 2: 256, 3: 206, 4: 204, 5: 256, 6: 204, 7: 168, 8: 194, 9: 202}
+15-11-22 06:21:50: Trn - Source 0, total loss: 2.0826, mixup loss: 2.0826
+15-11-22 06:22:08: Val - Source 0, acc: 0.4883, avg acc: 0.4775, cls loss: 1.2630
+15-11-22 06:22:17: Val - Target 0, acc: 0.3745, avg acc: 0.3476, cls loss: 1.7839
+15-11-22 06:29:35: Trn - Source 1, total loss: 1.6092, mixup loss: 1.6092
+15-11-22 06:29:53: Val - Source 1, acc: 0.6779, avg acc: 0.6670, cls loss: 0.8982
+15-11-22 06:30:02: Val - Target 1, acc: 0.5199, avg acc: 0.5051, cls loss: 1.4600
+15-11-22 06:37:21: Trn - Source 2, total loss: 1.3799, mixup loss: 1.3799
+15-11-22 06:37:39: Val - Source 2, acc: 0.8541, avg acc: 0.8516, cls loss: 0.5326
+15-11-22 06:37:48: Val - Target 2, acc: 0.6454, avg acc: 0.6464, cls loss: 1.1323
+15-11-22 06:45:10: Trn - Source 3, total loss: 1.2602, mixup loss: 1.2602
+15-11-22 06:45:28: Val - Source 3, acc: 0.7961, avg acc: 0.7999, cls loss: 0.6215
+15-11-22 06:45:38: Val - Target 3, acc: 0.5857, avg acc: 0.5941, cls loss: 1.1897
+15-11-22 06:52:48: Trn - Source 4, total loss: 1.1511, mixup loss: 1.1511
+15-11-22 06:53:06: Val - Source 4, acc: 0.9192, avg acc: 0.9184, cls loss: 0.3923
+15-11-22 06:53:15: Val - Target 4, acc: 0.6847, avg acc: 0.7001, cls loss: 1.0301
+15-11-22 07:00:33: Trn - Source 5, total loss: 1.0555, mixup loss: 1.0555
+15-11-22 07:00:50: Val - Source 5, acc: 0.9194, avg acc: 0.9139, cls loss: 0.3712
+15-11-22 07:00:59: Val - Target 5, acc: 0.7093, avg acc: 0.7050, cls loss: 1.0062
+15-11-22 07:08:24: Trn - Source 6, total loss: 1.0263, mixup loss: 1.0263
+15-11-22 07:08:42: Val - Source 6, acc: 0.9441, avg acc: 0.9418, cls loss: 0.3312
+15-11-22 07:08:51: Val - Target 6, acc: 0.7140, avg acc: 0.7235, cls loss: 0.9295
+15-11-22 07:16:15: Trn - Source 7, total loss: 0.9792, mixup loss: 0.9792
+15-11-22 07:16:33: Val - Source 7, acc: 0.9535, avg acc: 0.9525, cls loss: 0.3020
+15-11-22 07:16:42: Val - Target 7, acc: 0.7533, avg acc: 0.7589, cls loss: 0.8679
+15-11-22 07:24:06: Trn - Source 8, total loss: 0.9511, mixup loss: 0.9511
+15-11-22 07:24:24: Val - Source 8, acc: 0.9601, avg acc: 0.9599, cls loss: 0.2586
+15-11-22 07:24:33: Val - Target 8, acc: 0.7732, avg acc: 0.7814, cls loss: 0.8364
+15-11-22 07:31:50: Trn - Source 9, total loss: 0.9321, mixup loss: 0.9321
+15-11-22 07:32:08: Val - Source 9, acc: 0.9643, avg acc: 0.9637, cls loss: 0.2573
+15-11-22 07:32:17: Val - Target 9, acc: 0.7694, avg acc: 0.7795, cls loss: 0.8278
+15-11-22 07:32:18: Best model was found at epoch 9, source validation accuracy: 0.9643, source validation loss: 0.2573,target validation accuracy: 0.7694, target validation loss: 0.8278
+15-11-22 07:32:18: Best validtion model confusion matrix:
+15-11-22 07:32:18: 
+[[172   5   1   0   0   0   0   7   4   1]
+ [  7 149   8   0   2  30   1   3  38  12]
+ [  0   0 174   2   8   1   1   8  11  47]
+ [  0   4  16 152   0   0   0  14   4  13]
+ [  0   0   7   1 178   0   1   6   6   4]
+ [  1  26   0   0   0 157   0   1  66   0]
+ [  0   0   2   0   4   0 194   2   0   1]
+ [  8   5  15   0   7   0   1 124   3   5]
+ [  4   5   4   0   4   8   2   3 162   2]
+ [  1   3   7   2   1   0   0  13   8 163]]
+15-11-22 07:32:28: Test - Target 0, acc: 0.8098, avg acc: 0.8098, cls loss: 0.7186
+15-11-22 07:32:28: target test accuracy: 0.8098, target test loss: 0.8278
+15-11-22 07:32:28: Test confusion matrix:
+15-11-22 07:32:28: 
+[[231   0   2   0   0   0   0   0  23   0]
+ [  3 164   0   0   0   5   0   0  36  48]
+ [  3   2 102   2  10   0   2  23  19  93]
+ [  0  39   0 148   1   9   0  43   7   9]
+ [  0   0  22   0 229   0   0   0   0   5]
+ [  1  10   1   0   0 209   0   3  30   2]
+ [  0   0   0   0   3   0 253   0   0   0]
+ [  0   1   1   5   0   4   3 240   0   2]
+ [  0   0   0   0   0   1   0   0 255   0]
+ [  1   4   0   0   0   0   0   2   7 242]]

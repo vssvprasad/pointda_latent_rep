@@ -1,0 +1,519 @@
+14-11-22 09:49:38: Namespace(exp_name='Syn-Real (PCM+CL)', out_path='./experiments', dataroot='./data', src_dataset='syn', trgt_dataset='realsense', epochs=1, model='dgcnn', want_images='True', want_align_loss='False', views_agregate='maxpool', seed=1, gpus=[0, 1, 2, 3], DefRec_dist='volume_based_voxels', num_regions=3, DefRec_on_src=False, DefRec_on_trgt='False', apply_PCM=True, batch_size=32, test_batch_size=32, optimizer='ADAM', DefRec_weight=0.0, dropout=0.5, mixup_params=1.0, lr=0.001, momentum=0.9, wd=5e-05, tloss=0.0001, alpha=0.01)
+14-11-22 09:49:38: Using GPUs [0, 1, 2, 3], from 4 devices available
+14-11-22 09:49:46: Occurrences count of classes in source syn train part: {0: 1597, 1: 2048, 2: 2043, 3: 1637, 4: 1636, 5: 2047, 6: 1462, 7: 1439, 8: 1603, 9: 1632}
+14-11-22 09:49:46: Occurrences count of classes in source syn validation part: {0: 399, 1: 512, 2: 510, 3: 411, 4: 408, 5: 511, 6: 367, 7: 359, 8: 401, 9: 407}
+14-11-22 09:49:46: Occurrences count of classes in target realsense train part: {0: 776, 1: 1024, 2: 1024, 3: 818, 4: 816, 5: 1023, 6: 816, 7: 673, 8: 777, 9: 813}
+14-11-22 09:49:46: Occurrences count of classes in target realsense validation part: {0: 192, 1: 256, 2: 256, 3: 206, 4: 204, 5: 256, 6: 204, 7: 168, 8: 194, 9: 202}
+14-11-22 09:57:14: Trn - Source 0, total loss: 2.0826, mixup loss: 2.0826
+14-11-22 09:57:39: Val - Source 0, acc: 0.4883, avg acc: 0.4775, cls loss: 1.2630
+14-11-22 09:57:51: Val - Target 0, acc: 0.3745, avg acc: 0.3476, cls loss: 1.7839
+14-11-22 09:57:52: Best model was found at epoch 0, source validation accuracy: 0.4883, source validation loss: 1.2630,target validation accuracy: 0.3745, target validation loss: 1.7839
+14-11-22 09:57:52: Best validtion model confusion matrix:
+14-11-22 09:57:52: 
+[[ 42   4  15   1   0  63   0  11  21  32]
+ [  3  12  34   0  14 184   0   1   7   0]
+ [  0   0 237   0  14   1   0   1   0   0]
+ [  0   0  59  23  55   7   0  45   0  15]
+ [  0   0 136   4  55   0   0   3   0   0]
+ [  2   0  11   0   0 238   0   2   0   2]
+ [  0   0  35   1  18   3 141   4   0   0]
+ [  0   0  74   0  57   4   0  31   0   1]
+ [  3   0  23   0  18 128   1   0   8  10]
+ [  0   0 177   0   6   2   0   9   0   4]]
+14-11-22 09:58:06: Test - Target 0, acc: 0.4109, avg acc: 0.4109, cls loss: 1.5930
+14-11-22 09:58:06: target test accuracy: 0.4109, target test loss: 1.7839
+14-11-22 09:58:06: Test confusion matrix:
+14-11-22 09:58:06: 
+[[112   2  69   2   0  29   0   3   7  32]
+ [ 11   5  20   0   0 213   0   7   0   0]
+ [  0   0 222   0  25   6   0   2   0   1]
+ [  8   0  53 105  24   4   0  51   0  11]
+ [  0   0 230   0  26   0   0   0   0   0]
+ [  0   0  38   0   0 218   0   0   0   0]
+ [  0   0  26   0   1  15 213   1   0   0]
+ [  0   0  11  28  27 122   0  67   0   1]
+ [  0   0   0   0   0 256   0   0   0   0]
+ [  3   6 104   0   5  44   0   6   4  84]]
+14-11-22 09:59:09: Namespace(exp_name='Syn-Real (PCM+CL)', out_path='./experiments', dataroot='./data', src_dataset='syn', trgt_dataset='realsense', epochs=150, model='dgcnn', want_images='True', want_align_loss='False', views_agregate='maxpool', seed=1, gpus=[0, 1, 2, 3], DefRec_dist='volume_based_voxels', num_regions=3, DefRec_on_src=False, DefRec_on_trgt='False', apply_PCM=True, batch_size=32, test_batch_size=32, optimizer='ADAM', DefRec_weight=0.0, dropout=0.5, mixup_params=1.0, lr=0.001, momentum=0.9, wd=5e-05, tloss=0.0001, alpha=0.01)
+14-11-22 09:59:09: Using GPUs [0, 1, 2, 3], from 4 devices available
+14-11-22 09:59:16: Occurrences count of classes in source syn train part: {0: 1597, 1: 2048, 2: 2043, 3: 1637, 4: 1636, 5: 2047, 6: 1462, 7: 1439, 8: 1603, 9: 1632}
+14-11-22 09:59:16: Occurrences count of classes in source syn validation part: {0: 399, 1: 512, 2: 510, 3: 411, 4: 408, 5: 511, 6: 367, 7: 359, 8: 401, 9: 407}
+14-11-22 09:59:16: Occurrences count of classes in target realsense train part: {0: 776, 1: 1024, 2: 1024, 3: 818, 4: 816, 5: 1023, 6: 816, 7: 673, 8: 777, 9: 813}
+14-11-22 09:59:16: Occurrences count of classes in target realsense validation part: {0: 192, 1: 256, 2: 256, 3: 206, 4: 204, 5: 256, 6: 204, 7: 168, 8: 194, 9: 202}
+14-11-22 10:06:40: Trn - Source 0, total loss: 2.0826, mixup loss: 2.0826
+14-11-22 10:06:58: Val - Source 0, acc: 0.4883, avg acc: 0.4775, cls loss: 1.2630
+14-11-22 10:07:06: Val - Target 0, acc: 0.3745, avg acc: 0.3476, cls loss: 1.7839
+14-11-22 10:14:31: Trn - Source 1, total loss: 1.6128, mixup loss: 1.6128
+14-11-22 10:14:48: Val - Source 1, acc: 0.7336, avg acc: 0.7279, cls loss: 0.8092
+14-11-22 10:14:57: Val - Target 1, acc: 0.5360, avg acc: 0.5297, cls loss: 1.4234
+14-11-22 10:22:22: Trn - Source 2, total loss: 1.3846, mixup loss: 1.3846
+14-11-22 10:22:40: Val - Source 2, acc: 0.8689, avg acc: 0.8634, cls loss: 0.5017
+14-11-22 10:22:49: Val - Target 2, acc: 0.6496, avg acc: 0.6489, cls loss: 1.0931
+14-11-22 10:30:14: Trn - Source 3, total loss: 1.2649, mixup loss: 1.2649
+14-11-22 10:30:31: Val - Source 3, acc: 0.8419, avg acc: 0.8399, cls loss: 0.5666
+14-11-22 10:30:40: Val - Target 3, acc: 0.6179, avg acc: 0.6163, cls loss: 1.1280
+14-11-22 10:38:04: Trn - Source 4, total loss: 1.1692, mixup loss: 1.1692
+14-11-22 10:38:22: Val - Source 4, acc: 0.9368, avg acc: 0.9348, cls loss: 0.3564
+14-11-22 10:38:31: Val - Target 4, acc: 0.7235, avg acc: 0.7339, cls loss: 0.9679
+14-11-22 10:45:47: Trn - Source 5, total loss: 1.0752, mixup loss: 1.0752
+14-11-22 10:46:05: Val - Source 5, acc: 0.9443, avg acc: 0.9400, cls loss: 0.3156
+14-11-22 10:46:14: Val - Target 5, acc: 0.7315, avg acc: 0.7263, cls loss: 0.9395
+14-11-22 10:53:35: Trn - Source 6, total loss: 1.0427, mixup loss: 1.0427
+14-11-22 10:53:53: Val - Source 6, acc: 0.9448, avg acc: 0.9430, cls loss: 0.3046
+14-11-22 10:54:02: Val - Target 6, acc: 0.6709, avg acc: 0.6895, cls loss: 1.0163
+14-11-22 11:01:18: Trn - Source 7, total loss: 0.9853, mixup loss: 0.9853
+14-11-22 11:01:36: Val - Source 7, acc: 0.9274, avg acc: 0.9238, cls loss: 0.3233
+14-11-22 11:01:45: Val - Target 7, acc: 0.7083, avg acc: 0.7074, cls loss: 0.8861
+14-11-22 11:09:04: Trn - Source 8, total loss: 0.9569, mixup loss: 0.9569
+14-11-22 11:09:21: Val - Source 8, acc: 0.9102, avg acc: 0.9079, cls loss: 0.3551
+14-11-22 11:09:30: Val - Target 8, acc: 0.7372, avg acc: 0.7349, cls loss: 0.9100
+14-11-22 11:16:55: Trn - Source 9, total loss: 0.9201, mixup loss: 0.9201
+14-11-22 11:17:13: Val - Source 9, acc: 0.9699, avg acc: 0.9689, cls loss: 0.1955
+14-11-22 11:17:21: Val - Target 9, acc: 0.8011, avg acc: 0.8041, cls loss: 0.7611
+14-11-22 11:24:46: Trn - Source 10, total loss: 0.9106, mixup loss: 0.9106
+14-11-22 11:25:04: Val - Source 10, acc: 0.9664, avg acc: 0.9644, cls loss: 0.2637
+14-11-22 11:25:13: Val - Target 10, acc: 0.7391, avg acc: 0.7440, cls loss: 0.9005
+14-11-22 11:32:38: Trn - Source 11, total loss: 0.8929, mixup loss: 0.8929
+14-11-22 11:32:55: Val - Source 11, acc: 0.9467, avg acc: 0.9443, cls loss: 0.2899
+14-11-22 11:33:04: Val - Target 11, acc: 0.7230, avg acc: 0.7331, cls loss: 0.9203
+14-11-22 11:40:24: Trn - Source 12, total loss: 0.8954, mixup loss: 0.8954
+14-11-22 11:40:41: Val - Source 12, acc: 0.9429, avg acc: 0.9406, cls loss: 0.2873
+14-11-22 11:40:50: Val - Target 12, acc: 0.7836, avg acc: 0.7806, cls loss: 0.7833
+14-11-22 11:48:10: Trn - Source 13, total loss: 0.8679, mixup loss: 0.8679
+14-11-22 11:48:27: Val - Source 13, acc: 0.9678, avg acc: 0.9675, cls loss: 0.2504
+14-11-22 11:48:36: Val - Target 13, acc: 0.7775, avg acc: 0.7883, cls loss: 0.8194
+14-11-22 11:56:01: Trn - Source 14, total loss: 0.8358, mixup loss: 0.8358
+14-11-22 11:56:18: Val - Source 14, acc: 0.9645, avg acc: 0.9617, cls loss: 0.2268
+14-11-22 11:56:27: Val - Target 14, acc: 0.8049, avg acc: 0.8034, cls loss: 0.7440
+14-11-22 12:03:51: Trn - Source 15, total loss: 0.7906, mixup loss: 0.7906
+14-11-22 12:04:09: Val - Source 15, acc: 0.9777, avg acc: 0.9761, cls loss: 0.1714
+14-11-22 12:04:17: Val - Target 15, acc: 0.8362, avg acc: 0.8382, cls loss: 0.6662
+14-11-22 12:11:33: Trn - Source 16, total loss: 0.8121, mixup loss: 0.8121
+14-11-22 12:11:50: Val - Source 16, acc: 0.9631, avg acc: 0.9620, cls loss: 0.1976
+14-11-22 12:11:59: Val - Target 16, acc: 0.8063, avg acc: 0.8077, cls loss: 0.7326
+14-11-22 12:19:15: Trn - Source 17, total loss: 0.8178, mixup loss: 0.8178
+14-11-22 12:19:33: Val - Source 17, acc: 0.9826, avg acc: 0.9810, cls loss: 0.1708
+14-11-22 12:19:41: Val - Target 17, acc: 0.8494, avg acc: 0.8510, cls loss: 0.6607
+14-11-22 12:26:55: Trn - Source 18, total loss: 0.7998, mixup loss: 0.7998
+14-11-22 12:27:13: Val - Source 18, acc: 0.9678, avg acc: 0.9661, cls loss: 0.2173
+14-11-22 12:27:22: Val - Target 18, acc: 0.8172, avg acc: 0.8211, cls loss: 0.7059
+14-11-22 12:34:46: Trn - Source 19, total loss: 0.8168, mixup loss: 0.8168
+14-11-22 12:35:04: Val - Source 19, acc: 0.9742, avg acc: 0.9720, cls loss: 0.1734
+14-11-22 12:35:13: Val - Target 19, acc: 0.8116, avg acc: 0.8088, cls loss: 0.6961
+14-11-22 12:42:37: Trn - Source 20, total loss: 0.7605, mixup loss: 0.7605
+14-11-22 12:42:55: Val - Source 20, acc: 0.9828, avg acc: 0.9815, cls loss: 0.1681
+14-11-22 12:43:04: Val - Target 20, acc: 0.7746, avg acc: 0.7885, cls loss: 0.8027
+14-11-22 12:50:20: Trn - Source 21, total loss: 0.7649, mixup loss: 0.7649
+14-11-22 12:50:38: Val - Source 21, acc: 0.9784, avg acc: 0.9767, cls loss: 0.1810
+14-11-22 12:50:47: Val - Target 21, acc: 0.8409, avg acc: 0.8407, cls loss: 0.7019
+14-11-22 12:58:04: Trn - Source 22, total loss: 0.7836, mixup loss: 0.7836
+14-11-22 12:58:22: Val - Source 22, acc: 0.9873, avg acc: 0.9863, cls loss: 0.1435
+14-11-22 12:58:31: Val - Target 22, acc: 0.8338, avg acc: 0.8363, cls loss: 0.6699
+14-11-22 13:05:55: Trn - Source 23, total loss: 0.7717, mixup loss: 0.7717
+14-11-22 13:06:13: Val - Source 23, acc: 0.9680, avg acc: 0.9663, cls loss: 0.1921
+14-11-22 13:06:22: Val - Target 23, acc: 0.8130, avg acc: 0.8199, cls loss: 0.6627
+14-11-22 13:13:48: Trn - Source 24, total loss: 0.7812, mixup loss: 0.7812
+14-11-22 13:14:05: Val - Source 24, acc: 0.9803, avg acc: 0.9793, cls loss: 0.1757
+14-11-22 13:14:14: Val - Target 24, acc: 0.8423, avg acc: 0.8442, cls loss: 0.6805
+14-11-22 13:21:40: Trn - Source 25, total loss: 0.7485, mixup loss: 0.7485
+14-11-22 13:21:57: Val - Source 25, acc: 0.9824, avg acc: 0.9811, cls loss: 0.1522
+14-11-22 13:22:07: Val - Target 25, acc: 0.8485, avg acc: 0.8491, cls loss: 0.6266
+14-11-22 13:29:23: Trn - Source 26, total loss: 0.7601, mixup loss: 0.7601
+14-11-22 13:29:41: Val - Source 26, acc: 0.9779, avg acc: 0.9766, cls loss: 0.1976
+14-11-22 13:29:50: Val - Target 26, acc: 0.8348, avg acc: 0.8340, cls loss: 0.6996
+14-11-22 13:37:04: Trn - Source 27, total loss: 0.7565, mixup loss: 0.7565
+14-11-22 13:37:22: Val - Source 27, acc: 0.9864, avg acc: 0.9853, cls loss: 0.1404
+14-11-22 13:37:31: Val - Target 27, acc: 0.8414, avg acc: 0.8436, cls loss: 0.6271
+14-11-22 13:44:46: Trn - Source 28, total loss: 0.7679, mixup loss: 0.7679
+14-11-22 13:45:04: Val - Source 28, acc: 0.9887, avg acc: 0.9880, cls loss: 0.1287
+14-11-22 13:45:13: Val - Target 28, acc: 0.8395, avg acc: 0.8442, cls loss: 0.6447
+14-11-22 13:52:31: Trn - Source 29, total loss: 0.7621, mixup loss: 0.7621
+14-11-22 13:52:49: Val - Source 29, acc: 0.9586, avg acc: 0.9560, cls loss: 0.2002
+14-11-22 13:52:57: Val - Target 29, acc: 0.8106, avg acc: 0.8051, cls loss: 0.6996
+14-11-22 14:00:23: Trn - Source 30, total loss: 0.7492, mixup loss: 0.7492
+14-11-22 14:00:40: Val - Source 30, acc: 0.9777, avg acc: 0.9763, cls loss: 0.1729
+14-11-22 14:00:49: Val - Target 30, acc: 0.7623, avg acc: 0.7747, cls loss: 0.7421
+14-11-22 14:08:14: Trn - Source 31, total loss: 0.7088, mixup loss: 0.7088
+14-11-22 14:08:31: Val - Source 31, acc: 0.9866, avg acc: 0.9859, cls loss: 0.1458
+14-11-22 14:08:40: Val - Target 31, acc: 0.8362, avg acc: 0.8373, cls loss: 0.6497
+14-11-22 14:16:01: Trn - Source 32, total loss: 0.7089, mixup loss: 0.7089
+14-11-22 14:16:19: Val - Source 32, acc: 0.9725, avg acc: 0.9709, cls loss: 0.1784
+14-11-22 14:16:28: Val - Target 32, acc: 0.8324, avg acc: 0.8376, cls loss: 0.6411
+14-11-22 14:23:41: Trn - Source 33, total loss: 0.7290, mixup loss: 0.7290
+14-11-22 14:23:58: Val - Source 33, acc: 0.9873, avg acc: 0.9861, cls loss: 0.1359
+14-11-22 14:24:07: Val - Target 33, acc: 0.8272, avg acc: 0.8328, cls loss: 0.6583
+14-11-22 14:31:25: Trn - Source 34, total loss: 0.7283, mixup loss: 0.7283
+14-11-22 14:31:43: Val - Source 34, acc: 0.9915, avg acc: 0.9907, cls loss: 0.1041
+14-11-22 14:31:51: Val - Target 34, acc: 0.8537, avg acc: 0.8544, cls loss: 0.5997
+14-11-22 14:39:17: Trn - Source 35, total loss: 0.7254, mixup loss: 0.7254
+14-11-22 14:39:34: Val - Source 35, acc: 0.9854, avg acc: 0.9843, cls loss: 0.1264
+14-11-22 14:39:43: Val - Target 35, acc: 0.8466, avg acc: 0.8438, cls loss: 0.6095
+14-11-22 14:47:09: Trn - Source 36, total loss: 0.7102, mixup loss: 0.7102
+14-11-22 14:47:27: Val - Source 36, acc: 0.9878, avg acc: 0.9871, cls loss: 0.1048
+14-11-22 14:47:36: Val - Target 36, acc: 0.8305, avg acc: 0.8375, cls loss: 0.6134
+14-11-22 14:54:55: Trn - Source 37, total loss: 0.7051, mixup loss: 0.7051
+14-11-22 14:55:13: Val - Source 37, acc: 0.9906, avg acc: 0.9901, cls loss: 0.1124
+14-11-22 14:55:22: Val - Target 37, acc: 0.8598, avg acc: 0.8614, cls loss: 0.5786
+14-11-22 15:02:43: Trn - Source 38, total loss: 0.6964, mixup loss: 0.6964
+14-11-22 15:03:01: Val - Source 38, acc: 0.9838, avg acc: 0.9824, cls loss: 0.1316
+14-11-22 15:03:09: Val - Target 38, acc: 0.8314, avg acc: 0.8306, cls loss: 0.6898
+14-11-22 15:10:32: Trn - Source 39, total loss: 0.7276, mixup loss: 0.7276
+14-11-22 15:10:49: Val - Source 39, acc: 0.9817, avg acc: 0.9808, cls loss: 0.1364
+14-11-22 15:10:58: Val - Target 39, acc: 0.7751, avg acc: 0.7808, cls loss: 0.7545
+14-11-22 15:18:11: Trn - Source 40, total loss: 0.7192, mixup loss: 0.7192
+14-11-22 15:18:28: Val - Source 40, acc: 0.9883, avg acc: 0.9878, cls loss: 0.1253
+14-11-22 15:18:37: Val - Target 40, acc: 0.8362, avg acc: 0.8428, cls loss: 0.5854
+14-11-22 15:25:51: Trn - Source 41, total loss: 0.6932, mixup loss: 0.6932
+14-11-22 15:26:08: Val - Source 41, acc: 0.9861, avg acc: 0.9848, cls loss: 0.1437
+14-11-22 15:26:17: Val - Target 41, acc: 0.8504, avg acc: 0.8503, cls loss: 0.5819
+14-11-22 15:33:31: Trn - Source 42, total loss: 0.7169, mixup loss: 0.7169
+14-11-22 15:33:49: Val - Source 42, acc: 0.9920, avg acc: 0.9915, cls loss: 0.1227
+14-11-22 15:33:58: Val - Target 42, acc: 0.8419, avg acc: 0.8420, cls loss: 0.6209
+14-11-22 15:41:17: Trn - Source 43, total loss: 0.6681, mixup loss: 0.6681
+14-11-22 15:41:35: Val - Source 43, acc: 0.9948, avg acc: 0.9945, cls loss: 0.0856
+14-11-22 15:41:44: Val - Target 43, acc: 0.8651, avg acc: 0.8677, cls loss: 0.5394
+14-11-22 15:49:06: Trn - Source 44, total loss: 0.6886, mixup loss: 0.6886
+14-11-22 15:49:24: Val - Source 44, acc: 0.9948, avg acc: 0.9947, cls loss: 0.1015
+14-11-22 15:49:33: Val - Target 44, acc: 0.8205, avg acc: 0.8228, cls loss: 0.6298
+14-11-22 15:56:54: Trn - Source 45, total loss: 0.6840, mixup loss: 0.6840
+14-11-22 15:57:12: Val - Source 45, acc: 0.9868, avg acc: 0.9863, cls loss: 0.1219
+14-11-22 15:57:21: Val - Target 45, acc: 0.8546, avg acc: 0.8553, cls loss: 0.5985
+14-11-22 16:04:36: Trn - Source 46, total loss: 0.6566, mixup loss: 0.6566
+14-11-22 16:04:53: Val - Source 46, acc: 0.9890, avg acc: 0.9882, cls loss: 0.1144
+14-11-22 16:05:02: Val - Target 46, acc: 0.8343, avg acc: 0.8375, cls loss: 0.6078
+14-11-22 16:12:17: Trn - Source 47, total loss: 0.7014, mixup loss: 0.7014
+14-11-22 16:12:35: Val - Source 47, acc: 0.9864, avg acc: 0.9857, cls loss: 0.1500
+14-11-22 16:12:44: Val - Target 47, acc: 0.8371, avg acc: 0.8424, cls loss: 0.6077
+14-11-22 16:20:08: Trn - Source 48, total loss: 0.6820, mixup loss: 0.6820
+14-11-22 16:20:25: Val - Source 48, acc: 0.9960, avg acc: 0.9958, cls loss: 0.0991
+14-11-22 16:20:34: Val - Target 48, acc: 0.8395, avg acc: 0.8439, cls loss: 0.5901
+14-11-22 16:27:54: Trn - Source 49, total loss: 0.6855, mixup loss: 0.6855
+14-11-22 16:28:11: Val - Source 49, acc: 0.9918, avg acc: 0.9915, cls loss: 0.1171
+14-11-22 16:28:20: Val - Target 49, acc: 0.8404, avg acc: 0.8447, cls loss: 0.5883
+14-11-22 16:35:33: Trn - Source 50, total loss: 0.6796, mixup loss: 0.6796
+14-11-22 16:35:50: Val - Source 50, acc: 0.9904, avg acc: 0.9899, cls loss: 0.1233
+14-11-22 16:35:59: Val - Target 50, acc: 0.8490, avg acc: 0.8510, cls loss: 0.5754
+14-11-22 16:43:20: Trn - Source 51, total loss: 0.6704, mixup loss: 0.6704
+14-11-22 16:43:38: Val - Source 51, acc: 0.9927, avg acc: 0.9922, cls loss: 0.1115
+14-11-22 16:43:46: Val - Target 51, acc: 0.8475, avg acc: 0.8520, cls loss: 0.5956
+14-11-22 16:51:09: Trn - Source 52, total loss: 0.6839, mixup loss: 0.6839
+14-11-22 16:51:26: Val - Source 52, acc: 0.9958, avg acc: 0.9956, cls loss: 0.0911
+14-11-22 16:51:35: Val - Target 52, acc: 0.8191, avg acc: 0.8276, cls loss: 0.6240
+14-11-22 16:58:53: Trn - Source 53, total loss: 0.6602, mixup loss: 0.6602
+14-11-22 16:59:11: Val - Source 53, acc: 0.9965, avg acc: 0.9962, cls loss: 0.0748
+14-11-22 16:59:20: Val - Target 53, acc: 0.8414, avg acc: 0.8447, cls loss: 0.5881
+14-11-22 17:06:37: Trn - Source 54, total loss: 0.6547, mixup loss: 0.6547
+14-11-22 17:06:54: Val - Source 54, acc: 0.9927, avg acc: 0.9924, cls loss: 0.1304
+14-11-22 17:07:03: Val - Target 54, acc: 0.8513, avg acc: 0.8531, cls loss: 0.5867
+14-11-22 17:14:19: Trn - Source 55, total loss: 0.6585, mixup loss: 0.6585
+14-11-22 17:14:36: Val - Source 55, acc: 0.9974, avg acc: 0.9972, cls loss: 0.0843
+14-11-22 17:14:45: Val - Target 55, acc: 0.8338, avg acc: 0.8404, cls loss: 0.6122
+14-11-22 17:22:02: Trn - Source 56, total loss: 0.6884, mixup loss: 0.6884
+14-11-22 17:22:20: Val - Source 56, acc: 0.9967, avg acc: 0.9965, cls loss: 0.0838
+14-11-22 17:22:29: Val - Target 56, acc: 0.8617, avg acc: 0.8631, cls loss: 0.5668
+14-11-22 17:29:53: Trn - Source 57, total loss: 0.6753, mixup loss: 0.6753
+14-11-22 17:30:10: Val - Source 57, acc: 0.9934, avg acc: 0.9927, cls loss: 0.1037
+14-11-22 17:30:19: Val - Target 57, acc: 0.8707, avg acc: 0.8692, cls loss: 0.5434
+14-11-22 17:37:45: Trn - Source 58, total loss: 0.6635, mixup loss: 0.6635
+14-11-22 17:38:02: Val - Source 58, acc: 0.9932, avg acc: 0.9926, cls loss: 0.0975
+14-11-22 17:38:11: Val - Target 58, acc: 0.8414, avg acc: 0.8462, cls loss: 0.5843
+14-11-22 17:45:26: Trn - Source 59, total loss: 0.6497, mixup loss: 0.6497
+14-11-22 17:45:44: Val - Source 59, acc: 0.9939, avg acc: 0.9933, cls loss: 0.0835
+14-11-22 17:45:53: Val - Target 59, acc: 0.8570, avg acc: 0.8611, cls loss: 0.5556
+14-11-22 17:53:12: Trn - Source 60, total loss: 0.6645, mixup loss: 0.6645
+14-11-22 17:53:29: Val - Source 60, acc: 0.9911, avg acc: 0.9906, cls loss: 0.0883
+14-11-22 17:53:38: Val - Target 60, acc: 0.8324, avg acc: 0.8303, cls loss: 0.6198
+14-11-22 18:00:55: Trn - Source 61, total loss: 0.6761, mixup loss: 0.6761
+14-11-22 18:01:12: Val - Source 61, acc: 0.9946, avg acc: 0.9943, cls loss: 0.0868
+14-11-22 18:01:21: Val - Target 61, acc: 0.8627, avg acc: 0.8640, cls loss: 0.5344
+14-11-22 18:08:38: Trn - Source 62, total loss: 0.6685, mixup loss: 0.6685
+14-11-22 18:08:55: Val - Source 62, acc: 0.9972, avg acc: 0.9971, cls loss: 0.0747
+14-11-22 18:09:04: Val - Target 62, acc: 0.8565, avg acc: 0.8636, cls loss: 0.5411
+14-11-22 18:16:25: Trn - Source 63, total loss: 0.6610, mixup loss: 0.6610
+14-11-22 18:16:43: Val - Source 63, acc: 0.9965, avg acc: 0.9964, cls loss: 0.0729
+14-11-22 18:16:51: Val - Target 63, acc: 0.8603, avg acc: 0.8631, cls loss: 0.5578
+14-11-22 18:24:17: Trn - Source 64, total loss: 0.6496, mixup loss: 0.6496
+14-11-22 18:24:35: Val - Source 64, acc: 0.9941, avg acc: 0.9937, cls loss: 0.0906
+14-11-22 18:24:44: Val - Target 64, acc: 0.8475, avg acc: 0.8487, cls loss: 0.5973
+14-11-22 18:32:10: Trn - Source 65, total loss: 0.6350, mixup loss: 0.6350
+14-11-22 18:32:27: Val - Source 65, acc: 0.9967, avg acc: 0.9965, cls loss: 0.0681
+14-11-22 18:32:36: Val - Target 65, acc: 0.8366, avg acc: 0.8395, cls loss: 0.5788
+14-11-22 18:40:01: Trn - Source 66, total loss: 0.6560, mixup loss: 0.6560
+14-11-22 18:40:18: Val - Source 66, acc: 0.9974, avg acc: 0.9973, cls loss: 0.0795
+14-11-22 18:40:27: Val - Target 66, acc: 0.8319, avg acc: 0.8347, cls loss: 0.5925
+14-11-22 18:47:52: Trn - Source 67, total loss: 0.6437, mixup loss: 0.6437
+14-11-22 18:48:10: Val - Source 67, acc: 0.9941, avg acc: 0.9939, cls loss: 0.1024
+14-11-22 18:48:19: Val - Target 67, acc: 0.8731, avg acc: 0.8766, cls loss: 0.5310
+14-11-22 18:55:32: Trn - Source 68, total loss: 0.6547, mixup loss: 0.6547
+14-11-22 18:55:50: Val - Source 68, acc: 0.9962, avg acc: 0.9962, cls loss: 0.0872
+14-11-22 18:55:59: Val - Target 68, acc: 0.8447, avg acc: 0.8470, cls loss: 0.6017
+14-11-22 19:03:10: Trn - Source 69, total loss: 0.6621, mixup loss: 0.6621
+14-11-22 19:03:28: Val - Source 69, acc: 0.9967, avg acc: 0.9966, cls loss: 0.0796
+14-11-22 19:03:37: Val - Target 69, acc: 0.8651, avg acc: 0.8690, cls loss: 0.5312
+14-11-22 19:10:58: Trn - Source 70, total loss: 0.6362, mixup loss: 0.6362
+14-11-22 19:11:16: Val - Source 70, acc: 0.9953, avg acc: 0.9948, cls loss: 0.0867
+14-11-22 19:11:25: Val - Target 70, acc: 0.8731, avg acc: 0.8733, cls loss: 0.5292
+14-11-22 19:18:51: Trn - Source 71, total loss: 0.6533, mixup loss: 0.6533
+14-11-22 19:19:08: Val - Source 71, acc: 0.9958, avg acc: 0.9954, cls loss: 0.0788
+14-11-22 19:19:17: Val - Target 71, acc: 0.8726, avg acc: 0.8754, cls loss: 0.5109
+14-11-22 19:26:34: Trn - Source 72, total loss: 0.6468, mixup loss: 0.6468
+14-11-22 19:26:52: Val - Source 72, acc: 0.9908, avg acc: 0.9903, cls loss: 0.1075
+14-11-22 19:27:01: Val - Target 72, acc: 0.8698, avg acc: 0.8668, cls loss: 0.5346
+14-11-22 19:34:25: Trn - Source 73, total loss: 0.6362, mixup loss: 0.6362
+14-11-22 19:34:43: Val - Source 73, acc: 0.9969, avg acc: 0.9968, cls loss: 0.0681
+14-11-22 19:34:52: Val - Target 73, acc: 0.8381, avg acc: 0.8453, cls loss: 0.5850
+14-11-22 19:42:17: Trn - Source 74, total loss: 0.6405, mixup loss: 0.6405
+14-11-22 19:42:35: Val - Source 74, acc: 0.9927, avg acc: 0.9922, cls loss: 0.0855
+14-11-22 19:42:44: Val - Target 74, acc: 0.8598, avg acc: 0.8601, cls loss: 0.5538
+14-11-22 19:50:10: Trn - Source 75, total loss: 0.6362, mixup loss: 0.6362
+14-11-22 19:50:28: Val - Source 75, acc: 0.9965, avg acc: 0.9961, cls loss: 0.0729
+14-11-22 19:50:37: Val - Target 75, acc: 0.8679, avg acc: 0.8692, cls loss: 0.5236
+14-11-22 19:58:02: Trn - Source 76, total loss: 0.6344, mixup loss: 0.6344
+14-11-22 19:58:20: Val - Source 76, acc: 0.9974, avg acc: 0.9974, cls loss: 0.0675
+14-11-22 19:58:29: Val - Target 76, acc: 0.8670, avg acc: 0.8677, cls loss: 0.5097
+14-11-22 20:05:54: Trn - Source 77, total loss: 0.6277, mixup loss: 0.6277
+14-11-22 20:06:12: Val - Source 77, acc: 0.9967, avg acc: 0.9966, cls loss: 0.0805
+14-11-22 20:06:21: Val - Target 77, acc: 0.8731, avg acc: 0.8743, cls loss: 0.5077
+14-11-22 20:13:46: Trn - Source 78, total loss: 0.6357, mixup loss: 0.6357
+14-11-22 20:14:04: Val - Source 78, acc: 0.9979, avg acc: 0.9978, cls loss: 0.0608
+14-11-22 20:14:13: Val - Target 78, acc: 0.8499, avg acc: 0.8529, cls loss: 0.5563
+14-11-22 20:21:36: Trn - Source 79, total loss: 0.6258, mixup loss: 0.6258
+14-11-22 20:21:53: Val - Source 79, acc: 0.9981, avg acc: 0.9979, cls loss: 0.0627
+14-11-22 20:22:02: Val - Target 79, acc: 0.8461, avg acc: 0.8479, cls loss: 0.5854
+14-11-22 20:29:19: Trn - Source 80, total loss: 0.6225, mixup loss: 0.6225
+14-11-22 20:29:37: Val - Source 80, acc: 0.9974, avg acc: 0.9973, cls loss: 0.0576
+14-11-22 20:29:46: Val - Target 80, acc: 0.8646, avg acc: 0.8669, cls loss: 0.5271
+14-11-22 20:37:05: Trn - Source 81, total loss: 0.6256, mixup loss: 0.6256
+14-11-22 20:37:23: Val - Source 81, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0522
+14-11-22 20:37:32: Val - Target 81, acc: 0.8400, avg acc: 0.8464, cls loss: 0.5430
+14-11-22 20:44:48: Trn - Source 82, total loss: 0.5906, mixup loss: 0.5906
+14-11-22 20:45:06: Val - Source 82, acc: 0.9958, avg acc: 0.9953, cls loss: 0.0793
+14-11-22 20:45:15: Val - Target 82, acc: 0.8745, avg acc: 0.8751, cls loss: 0.5110
+14-11-22 20:52:31: Trn - Source 83, total loss: 0.6220, mixup loss: 0.6220
+14-11-22 20:52:49: Val - Source 83, acc: 0.9958, avg acc: 0.9955, cls loss: 0.0773
+14-11-22 20:52:59: Val - Target 83, acc: 0.8281, avg acc: 0.8363, cls loss: 0.5627
+14-11-22 21:00:16: Trn - Source 84, total loss: 0.6220, mixup loss: 0.6220
+14-11-22 21:00:33: Val - Source 84, acc: 0.9969, avg acc: 0.9969, cls loss: 0.0755
+14-11-22 21:00:43: Val - Target 84, acc: 0.8845, avg acc: 0.8841, cls loss: 0.4761
+14-11-22 21:08:07: Trn - Source 85, total loss: 0.6190, mixup loss: 0.6190
+14-11-22 21:08:25: Val - Source 85, acc: 0.9977, avg acc: 0.9975, cls loss: 0.0586
+14-11-22 21:08:34: Val - Target 85, acc: 0.8466, avg acc: 0.8510, cls loss: 0.5462
+14-11-22 21:16:00: Trn - Source 86, total loss: 0.6495, mixup loss: 0.6495
+14-11-22 21:16:18: Val - Source 86, acc: 0.9946, avg acc: 0.9944, cls loss: 0.0777
+14-11-22 21:16:27: Val - Target 86, acc: 0.8542, avg acc: 0.8576, cls loss: 0.5421
+14-11-22 21:23:43: Trn - Source 87, total loss: 0.6162, mixup loss: 0.6162
+14-11-22 21:24:01: Val - Source 87, acc: 0.9969, avg acc: 0.9968, cls loss: 0.0596
+14-11-22 21:24:10: Val - Target 87, acc: 0.8570, avg acc: 0.8591, cls loss: 0.5532
+14-11-22 21:31:35: Trn - Source 88, total loss: 0.5975, mixup loss: 0.5975
+14-11-22 21:31:53: Val - Source 88, acc: 0.9974, avg acc: 0.9972, cls loss: 0.0637
+14-11-22 21:32:02: Val - Target 88, acc: 0.8419, avg acc: 0.8460, cls loss: 0.5751
+14-11-22 21:39:27: Trn - Source 89, total loss: 0.6026, mixup loss: 0.6026
+14-11-22 21:39:45: Val - Source 89, acc: 0.9974, avg acc: 0.9971, cls loss: 0.0701
+14-11-22 21:39:54: Val - Target 89, acc: 0.8684, avg acc: 0.8698, cls loss: 0.4952
+14-11-22 21:47:10: Trn - Source 90, total loss: 0.6275, mixup loss: 0.6275
+14-11-22 21:47:28: Val - Source 90, acc: 0.9922, avg acc: 0.9918, cls loss: 0.0806
+14-11-22 21:47:38: Val - Target 90, acc: 0.8565, avg acc: 0.8562, cls loss: 0.5424
+14-11-22 21:55:02: Trn - Source 91, total loss: 0.5940, mixup loss: 0.5940
+14-11-22 21:55:20: Val - Source 91, acc: 0.9972, avg acc: 0.9970, cls loss: 0.0604
+14-11-22 21:55:29: Val - Target 91, acc: 0.8485, avg acc: 0.8509, cls loss: 0.5516
+14-11-22 22:02:50: Trn - Source 92, total loss: 0.6223, mixup loss: 0.6223
+14-11-22 22:03:08: Val - Source 92, acc: 0.9967, avg acc: 0.9964, cls loss: 0.0816
+14-11-22 22:03:17: Val - Target 92, acc: 0.8494, avg acc: 0.8591, cls loss: 0.5468
+14-11-22 22:10:33: Trn - Source 93, total loss: 0.6165, mixup loss: 0.6165
+14-11-22 22:10:51: Val - Source 93, acc: 0.9967, avg acc: 0.9965, cls loss: 0.0665
+14-11-22 22:11:00: Val - Target 93, acc: 0.8736, avg acc: 0.8733, cls loss: 0.5025
+14-11-22 22:18:19: Trn - Source 94, total loss: 0.5959, mixup loss: 0.5959
+14-11-22 22:18:37: Val - Source 94, acc: 0.9974, avg acc: 0.9973, cls loss: 0.0762
+14-11-22 22:18:46: Val - Target 94, acc: 0.8859, avg acc: 0.8888, cls loss: 0.4747
+14-11-22 22:26:11: Trn - Source 95, total loss: 0.6050, mixup loss: 0.6050
+14-11-22 22:26:28: Val - Source 95, acc: 0.9960, avg acc: 0.9957, cls loss: 0.0776
+14-11-22 22:26:37: Val - Target 95, acc: 0.8878, avg acc: 0.8870, cls loss: 0.4842
+14-11-22 22:33:51: Trn - Source 96, total loss: 0.6187, mixup loss: 0.6187
+14-11-22 22:34:08: Val - Source 96, acc: 0.9960, avg acc: 0.9958, cls loss: 0.0779
+14-11-22 22:34:17: Val - Target 96, acc: 0.8693, avg acc: 0.8748, cls loss: 0.5185
+14-11-22 22:41:42: Trn - Source 97, total loss: 0.5940, mixup loss: 0.5940
+14-11-22 22:41:59: Val - Source 97, acc: 0.9969, avg acc: 0.9968, cls loss: 0.0627
+14-11-22 22:42:08: Val - Target 97, acc: 0.8774, avg acc: 0.8801, cls loss: 0.4774
+14-11-22 22:49:24: Trn - Source 98, total loss: 0.5813, mixup loss: 0.5813
+14-11-22 22:49:41: Val - Source 98, acc: 0.9977, avg acc: 0.9975, cls loss: 0.0567
+14-11-22 22:49:50: Val - Target 98, acc: 0.8741, avg acc: 0.8765, cls loss: 0.4806
+14-11-22 22:57:03: Trn - Source 99, total loss: 0.6019, mixup loss: 0.6019
+14-11-22 22:57:21: Val - Source 99, acc: 0.9974, avg acc: 0.9973, cls loss: 0.0802
+14-11-22 22:57:30: Val - Target 99, acc: 0.8897, avg acc: 0.8889, cls loss: 0.4904
+14-11-22 23:04:46: Trn - Source 100, total loss: 0.6249, mixup loss: 0.6249
+14-11-22 23:05:04: Val - Source 100, acc: 0.9972, avg acc: 0.9971, cls loss: 0.0640
+14-11-22 23:05:14: Val - Target 100, acc: 0.8636, avg acc: 0.8692, cls loss: 0.5133
+14-11-22 23:12:37: Trn - Source 101, total loss: 0.6145, mixup loss: 0.6145
+14-11-22 23:12:55: Val - Source 101, acc: 0.9958, avg acc: 0.9953, cls loss: 0.0683
+14-11-22 23:13:04: Val - Target 101, acc: 0.8821, avg acc: 0.8867, cls loss: 0.4682
+14-11-22 23:20:29: Trn - Source 102, total loss: 0.6041, mixup loss: 0.6041
+14-11-22 23:20:47: Val - Source 102, acc: 0.9969, avg acc: 0.9968, cls loss: 0.0694
+14-11-22 23:20:56: Val - Target 102, acc: 0.8707, avg acc: 0.8736, cls loss: 0.4953
+14-11-22 23:28:10: Trn - Source 103, total loss: 0.5754, mixup loss: 0.5754
+14-11-22 23:28:28: Val - Source 103, acc: 0.9972, avg acc: 0.9970, cls loss: 0.0628
+14-11-22 23:28:36: Val - Target 103, acc: 0.8750, avg acc: 0.8764, cls loss: 0.4835
+14-11-22 23:35:58: Trn - Source 104, total loss: 0.5658, mixup loss: 0.5658
+14-11-22 23:36:16: Val - Source 104, acc: 0.9977, avg acc: 0.9975, cls loss: 0.0556
+14-11-22 23:36:25: Val - Target 104, acc: 0.8712, avg acc: 0.8742, cls loss: 0.4884
+14-11-22 23:43:50: Trn - Source 105, total loss: 0.6057, mixup loss: 0.6057
+14-11-22 23:44:08: Val - Source 105, acc: 0.9969, avg acc: 0.9967, cls loss: 0.0693
+14-11-22 23:44:17: Val - Target 105, acc: 0.8764, avg acc: 0.8782, cls loss: 0.4983
+14-11-22 23:51:43: Trn - Source 106, total loss: 0.5807, mixup loss: 0.5807
+14-11-22 23:52:01: Val - Source 106, acc: 0.9977, avg acc: 0.9976, cls loss: 0.0551
+14-11-22 23:52:10: Val - Target 106, acc: 0.8821, avg acc: 0.8860, cls loss: 0.4681
+14-11-22 23:59:35: Trn - Source 107, total loss: 0.5957, mixup loss: 0.5957
+14-11-22 23:59:53: Val - Source 107, acc: 0.9972, avg acc: 0.9970, cls loss: 0.0688
+15-11-22 00:00:02: Val - Target 107, acc: 0.8670, avg acc: 0.8692, cls loss: 0.5290
+15-11-22 00:07:28: Trn - Source 108, total loss: 0.5891, mixup loss: 0.5891
+15-11-22 00:07:46: Val - Source 108, acc: 0.9977, avg acc: 0.9976, cls loss: 0.0603
+15-11-22 00:07:55: Val - Target 108, acc: 0.8731, avg acc: 0.8758, cls loss: 0.4898
+15-11-22 00:15:11: Trn - Source 109, total loss: 0.5874, mixup loss: 0.5874
+15-11-22 00:15:29: Val - Source 109, acc: 0.9972, avg acc: 0.9969, cls loss: 0.0679
+15-11-22 00:15:38: Val - Target 109, acc: 0.8783, avg acc: 0.8810, cls loss: 0.4633
+15-11-22 00:22:52: Trn - Source 110, total loss: 0.6087, mixup loss: 0.6087
+15-11-22 00:23:10: Val - Source 110, acc: 0.9979, avg acc: 0.9977, cls loss: 0.0499
+15-11-22 00:23:19: Val - Target 110, acc: 0.8755, avg acc: 0.8787, cls loss: 0.4961
+15-11-22 00:30:38: Trn - Source 111, total loss: 0.6071, mixup loss: 0.6071
+15-11-22 00:30:56: Val - Source 111, acc: 0.9972, avg acc: 0.9970, cls loss: 0.0700
+15-11-22 00:31:05: Val - Target 111, acc: 0.8783, avg acc: 0.8796, cls loss: 0.5133
+15-11-22 00:38:18: Trn - Source 112, total loss: 0.5750, mixup loss: 0.5750
+15-11-22 00:38:35: Val - Source 112, acc: 0.9977, avg acc: 0.9976, cls loss: 0.0609
+15-11-22 00:38:44: Val - Target 112, acc: 0.8849, avg acc: 0.8890, cls loss: 0.4740
+15-11-22 00:46:06: Trn - Source 113, total loss: 0.5847, mixup loss: 0.5847
+15-11-22 00:46:24: Val - Source 113, acc: 0.9984, avg acc: 0.9983, cls loss: 0.0492
+15-11-22 00:46:33: Val - Target 113, acc: 0.8513, avg acc: 0.8559, cls loss: 0.5280
+15-11-22 00:53:58: Trn - Source 114, total loss: 0.5829, mixup loss: 0.5829
+15-11-22 00:54:16: Val - Source 114, acc: 0.9967, avg acc: 0.9966, cls loss: 0.0603
+15-11-22 00:54:24: Val - Target 114, acc: 0.8778, avg acc: 0.8815, cls loss: 0.4667
+15-11-22 01:01:49: Trn - Source 115, total loss: 0.5964, mixup loss: 0.5964
+15-11-22 01:02:07: Val - Source 115, acc: 0.9974, avg acc: 0.9973, cls loss: 0.0652
+15-11-22 01:02:16: Val - Target 115, acc: 0.8764, avg acc: 0.8790, cls loss: 0.4868
+15-11-22 01:09:32: Trn - Source 116, total loss: 0.5833, mixup loss: 0.5833
+15-11-22 01:09:50: Val - Source 116, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0468
+15-11-22 01:09:59: Val - Target 116, acc: 0.8835, avg acc: 0.8865, cls loss: 0.4399
+15-11-22 01:17:15: Trn - Source 117, total loss: 0.5971, mixup loss: 0.5971
+15-11-22 01:17:33: Val - Source 117, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0627
+15-11-22 01:17:41: Val - Target 117, acc: 0.8774, avg acc: 0.8818, cls loss: 0.4819
+15-11-22 01:25:04: Trn - Source 118, total loss: 0.5964, mixup loss: 0.5964
+15-11-22 01:25:22: Val - Source 118, acc: 0.9977, avg acc: 0.9975, cls loss: 0.0547
+15-11-22 01:25:31: Val - Target 118, acc: 0.8797, avg acc: 0.8824, cls loss: 0.4757
+15-11-22 01:32:49: Trn - Source 119, total loss: 0.5649, mixup loss: 0.5649
+15-11-22 01:33:06: Val - Source 119, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0637
+15-11-22 01:33:15: Val - Target 119, acc: 0.8769, avg acc: 0.8811, cls loss: 0.4820
+15-11-22 01:40:30: Trn - Source 120, total loss: 0.5907, mixup loss: 0.5907
+15-11-22 01:40:48: Val - Source 120, acc: 0.9977, avg acc: 0.9975, cls loss: 0.0682
+15-11-22 01:40:56: Val - Target 120, acc: 0.8480, avg acc: 0.8548, cls loss: 0.5402
+15-11-22 01:48:13: Trn - Source 121, total loss: 0.5837, mixup loss: 0.5837
+15-11-22 01:48:31: Val - Source 121, acc: 0.9979, avg acc: 0.9978, cls loss: 0.0558
+15-11-22 01:48:39: Val - Target 121, acc: 0.8537, avg acc: 0.8597, cls loss: 0.5226
+15-11-22 01:56:04: Trn - Source 122, total loss: 0.5802, mixup loss: 0.5802
+15-11-22 01:56:21: Val - Source 122, acc: 0.9981, avg acc: 0.9981, cls loss: 0.0490
+15-11-22 01:56:30: Val - Target 122, acc: 0.8542, avg acc: 0.8605, cls loss: 0.5097
+15-11-22 02:03:55: Trn - Source 123, total loss: 0.5724, mixup loss: 0.5724
+15-11-22 02:04:13: Val - Source 123, acc: 0.9981, avg acc: 0.9981, cls loss: 0.0557
+15-11-22 02:04:21: Val - Target 123, acc: 0.8613, avg acc: 0.8666, cls loss: 0.4951
+15-11-22 02:11:47: Trn - Source 124, total loss: 0.5894, mixup loss: 0.5894
+15-11-22 02:12:04: Val - Source 124, acc: 0.9986, avg acc: 0.9985, cls loss: 0.0540
+15-11-22 02:12:13: Val - Target 124, acc: 0.8755, avg acc: 0.8798, cls loss: 0.4928
+15-11-22 02:19:39: Trn - Source 125, total loss: 0.5570, mixup loss: 0.5570
+15-11-22 02:19:56: Val - Source 125, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0439
+15-11-22 02:20:05: Val - Target 125, acc: 0.8679, avg acc: 0.8718, cls loss: 0.4930
+15-11-22 02:27:32: Trn - Source 126, total loss: 0.5819, mixup loss: 0.5819
+15-11-22 02:27:49: Val - Source 126, acc: 0.9984, avg acc: 0.9983, cls loss: 0.0436
+15-11-22 02:27:58: Val - Target 126, acc: 0.8627, avg acc: 0.8682, cls loss: 0.4856
+15-11-22 02:35:18: Trn - Source 127, total loss: 0.5828, mixup loss: 0.5828
+15-11-22 02:35:36: Val - Source 127, acc: 0.9979, avg acc: 0.9978, cls loss: 0.0494
+15-11-22 02:35:45: Val - Target 127, acc: 0.8717, avg acc: 0.8752, cls loss: 0.4922
+15-11-22 02:43:04: Trn - Source 128, total loss: 0.5756, mixup loss: 0.5756
+15-11-22 02:43:21: Val - Source 128, acc: 0.9979, avg acc: 0.9978, cls loss: 0.0491
+15-11-22 02:43:30: Val - Target 128, acc: 0.8717, avg acc: 0.8779, cls loss: 0.4863
+15-11-22 02:50:45: Trn - Source 129, total loss: 0.5726, mixup loss: 0.5726
+15-11-22 02:51:02: Val - Source 129, acc: 0.9986, avg acc: 0.9985, cls loss: 0.0440
+15-11-22 02:51:12: Val - Target 129, acc: 0.8636, avg acc: 0.8679, cls loss: 0.4996
+15-11-22 02:58:36: Trn - Source 130, total loss: 0.5764, mixup loss: 0.5764
+15-11-22 02:58:53: Val - Source 130, acc: 0.9969, avg acc: 0.9967, cls loss: 0.0615
+15-11-22 02:59:02: Val - Target 130, acc: 0.8741, avg acc: 0.8784, cls loss: 0.4782
+15-11-22 03:06:27: Trn - Source 131, total loss: 0.5507, mixup loss: 0.5507
+15-11-22 03:06:44: Val - Source 131, acc: 0.9979, avg acc: 0.9978, cls loss: 0.0513
+15-11-22 03:06:53: Val - Target 131, acc: 0.8816, avg acc: 0.8843, cls loss: 0.4598
+15-11-22 03:14:12: Trn - Source 132, total loss: 0.5697, mixup loss: 0.5697
+15-11-22 03:14:30: Val - Source 132, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0448
+15-11-22 03:14:39: Val - Target 132, acc: 0.8627, avg acc: 0.8688, cls loss: 0.4891
+15-11-22 03:22:01: Trn - Source 133, total loss: 0.5849, mixup loss: 0.5849
+15-11-22 03:22:18: Val - Source 133, acc: 0.9979, avg acc: 0.9978, cls loss: 0.0553
+15-11-22 03:22:27: Val - Target 133, acc: 0.8750, avg acc: 0.8774, cls loss: 0.4683
+15-11-22 03:29:53: Trn - Source 134, total loss: 0.5811, mixup loss: 0.5811
+15-11-22 03:30:10: Val - Source 134, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0578
+15-11-22 03:30:19: Val - Target 134, acc: 0.8651, avg acc: 0.8715, cls loss: 0.4983
+15-11-22 03:37:44: Trn - Source 135, total loss: 0.5864, mixup loss: 0.5864
+15-11-22 03:38:02: Val - Source 135, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0474
+15-11-22 03:38:11: Val - Target 135, acc: 0.8826, avg acc: 0.8848, cls loss: 0.4738
+15-11-22 03:45:37: Trn - Source 136, total loss: 0.5618, mixup loss: 0.5618
+15-11-22 03:45:54: Val - Source 136, acc: 0.9981, avg acc: 0.9981, cls loss: 0.0537
+15-11-22 03:46:03: Val - Target 136, acc: 0.8703, avg acc: 0.8759, cls loss: 0.5080
+15-11-22 03:53:28: Trn - Source 137, total loss: 0.5566, mixup loss: 0.5566
+15-11-22 03:53:45: Val - Source 137, acc: 0.9979, avg acc: 0.9978, cls loss: 0.0561
+15-11-22 03:53:54: Val - Target 137, acc: 0.8812, avg acc: 0.8853, cls loss: 0.4628
+15-11-22 04:01:12: Trn - Source 138, total loss: 0.5658, mixup loss: 0.5658
+15-11-22 04:01:30: Val - Source 138, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0517
+15-11-22 04:01:39: Val - Target 138, acc: 0.8575, avg acc: 0.8645, cls loss: 0.4947
+15-11-22 04:08:58: Trn - Source 139, total loss: 0.5773, mixup loss: 0.5773
+15-11-22 04:09:16: Val - Source 139, acc: 0.9979, avg acc: 0.9978, cls loss: 0.0478
+15-11-22 04:09:25: Val - Target 139, acc: 0.8627, avg acc: 0.8687, cls loss: 0.4876
+15-11-22 04:16:46: Trn - Source 140, total loss: 0.5766, mixup loss: 0.5766
+15-11-22 04:17:03: Val - Source 140, acc: 0.9979, avg acc: 0.9978, cls loss: 0.0505
+15-11-22 04:17:12: Val - Target 140, acc: 0.8703, avg acc: 0.8744, cls loss: 0.4832
+15-11-22 04:24:39: Trn - Source 141, total loss: 0.5908, mixup loss: 0.5908
+15-11-22 04:24:56: Val - Source 141, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0555
+15-11-22 04:25:05: Val - Target 141, acc: 0.8712, avg acc: 0.8779, cls loss: 0.4798
+15-11-22 04:32:22: Trn - Source 142, total loss: 0.5803, mixup loss: 0.5803
+15-11-22 04:32:39: Val - Source 142, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0459
+15-11-22 04:32:48: Val - Target 142, acc: 0.8755, avg acc: 0.8786, cls loss: 0.4777
+15-11-22 04:40:09: Trn - Source 143, total loss: 0.5728, mixup loss: 0.5728
+15-11-22 04:40:26: Val - Source 143, acc: 0.9984, avg acc: 0.9983, cls loss: 0.0496
+15-11-22 04:40:35: Val - Target 143, acc: 0.8821, avg acc: 0.8854, cls loss: 0.4443
+15-11-22 04:48:00: Trn - Source 144, total loss: 0.5759, mixup loss: 0.5759
+15-11-22 04:48:18: Val - Source 144, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0546
+15-11-22 04:48:27: Val - Target 144, acc: 0.8736, avg acc: 0.8777, cls loss: 0.4846
+15-11-22 04:55:46: Trn - Source 145, total loss: 0.5713, mixup loss: 0.5713
+15-11-22 04:56:04: Val - Source 145, acc: 0.9979, avg acc: 0.9978, cls loss: 0.0566
+15-11-22 04:56:13: Val - Target 145, acc: 0.8670, avg acc: 0.8711, cls loss: 0.4897
+15-11-22 05:03:31: Trn - Source 146, total loss: 0.5682, mixup loss: 0.5682
+15-11-22 05:03:48: Val - Source 146, acc: 0.9981, avg acc: 0.9981, cls loss: 0.0449
+15-11-22 05:03:57: Val - Target 146, acc: 0.8736, avg acc: 0.8786, cls loss: 0.4804
+15-11-22 05:11:11: Trn - Source 147, total loss: 0.5828, mixup loss: 0.5828
+15-11-22 05:11:29: Val - Source 147, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0529
+15-11-22 05:11:38: Val - Target 147, acc: 0.8807, avg acc: 0.8856, cls loss: 0.4704
+15-11-22 05:18:59: Trn - Source 148, total loss: 0.5813, mixup loss: 0.5813
+15-11-22 05:19:17: Val - Source 148, acc: 0.9984, avg acc: 0.9983, cls loss: 0.0478
+15-11-22 05:19:26: Val - Target 148, acc: 0.8840, avg acc: 0.8857, cls loss: 0.4521
+15-11-22 05:26:43: Trn - Source 149, total loss: 0.5757, mixup loss: 0.5757
+15-11-22 05:27:01: Val - Source 149, acc: 0.9981, avg acc: 0.9980, cls loss: 0.0498
+15-11-22 05:27:09: Val - Target 149, acc: 0.8878, avg acc: 0.8884, cls loss: 0.4477
+15-11-22 05:27:09: Best model was found at epoch 124, source validation accuracy: 0.9986, source validation loss: 0.0540,target validation accuracy: 0.8755, target validation loss: 0.4928
+15-11-22 05:27:09: Best validtion model confusion matrix:
+15-11-22 05:27:09: 
+[[189   0   0   0   0   0   1   0   0   0]
+ [  2 231   8   0   2   0   1   2   8   0]
+ [  0   1 212   1   2   0   1  33   1   0]
+ [  0   0  10 187   0   0   1   2   0   0]
+ [  0   1   2   0 193   0   1   5   0   0]
+ [  0  26   0   2   0 185   0   3  38   0]
+ [  0   0   0   0   1   0 202   0   0   0]
+ [  2   0   9   0   4   0   2 147   1   0]
+ [  3  10   3   1   0   4   3   7 162   0]
+ [  0   9   8   1   1   0   0  39   1 141]]
+15-11-22 05:27:20: Test - Target 0, acc: 0.8977, avg acc: 0.8977, cls loss: 0.4265
+15-11-22 05:27:20: target test accuracy: 0.8977, target test loss: 0.4928
+15-11-22 05:27:20: Test confusion matrix:
+15-11-22 05:27:20: 
+[[252   0   0   0   0   0   0   1   3   0]
+ [  1 245   1   0   0   0   0   0   0   9]
+ [  0   5 141   6   4  10   1  87   2   0]
+ [  0  13   0 223   0   2   0  17   1   0]
+ [  0   0  27   0 221   0   0   8   0   0]
+ [  1  16   0   1   0 225   1   9   3   0]
+ [  0   0   0   0   0   0 256   0   0   0]
+ [  0   0   0   2   0   0   1 253   0   0]
+ [  0   3   0   0   0   0   0   0 253   0]
+ [  4   6   0   0   0   0   5   8   4 229]]

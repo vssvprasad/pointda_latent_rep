@@ -1,0 +1,8 @@
+17-11-22 09:13:39: Namespace(exp_name='crosspoint_PCM_weight1_scan_shape', out_path='./experiments', dataroot='./data', weights_path='/home/ubuntu/3d-da/FinalWeights', src_dataset='scannet', trgt_dataset='shapenet', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+17-11-22 09:13:39: Using GPUs [0], from 4 devices available
+17-11-22 09:13:40: number of test examples in shapenet: 2492
+17-11-22 09:13:40: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
+17-11-22 09:13:42: number of test examples in scannet: 1769
+17-11-22 09:13:42: Occurrences count of classes in scannet test set: {0: 26, 1: 85, 2: 146, 3: 149, 4: 801, 5: 41, 6: 61, 7: 25, 8: 134, 9: 301}
+17-11-22 09:13:42: number of test examples in shapenet: 2492
+17-11-22 09:13:42: Occurrences count of classes in shapenet test set: {0: 85, 1: 23, 2: 50, 3: 126, 4: 662, 5: 232, 6: 112, 7: 30, 8: 330, 9: 842}
