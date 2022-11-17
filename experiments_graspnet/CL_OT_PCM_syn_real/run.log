@@ -1,0 +1,4 @@
+16-11-22 19:40:47: Namespace(exp_name='CL_OT_PCM_syn_real', out_path='./experiments_graspnet', dataroot='./data', weights_path='/home/ubuntu/3d-da/GraspNet_Weights', src_dataset='syn', trgt_dataset='realsense', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+16-11-22 19:40:47: Using GPUs [0], from 4 devices available
+16-11-22 19:44:41: Namespace(exp_name='CL_OT_PCM_syn_real', out_path='./experiments_graspnet', dataroot='./data', weights_path='/home/ubuntu/3d-da/GraspNet_Weights', src_dataset='syn', trgt_dataset='realsense', is_spst='True', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+16-11-22 19:44:41: Using GPUs [0], from 4 devices available
