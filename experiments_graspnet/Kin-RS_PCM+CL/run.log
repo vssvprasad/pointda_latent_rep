@@ -1,0 +1,2 @@
+17-11-22 06:29:06: Namespace(exp_name='Kin-RS_PCM+CL', out_path='./experiments_graspnet', dataroot='./data', weights_path='/home/ubuntu/3d-da/daonpc_weights', src_dataset='kinect', trgt_dataset='realsense', is_spst='False', model='dgcnn', want_images='True', seed=1, gpus=[0], DefRec_dist='volume_based_voxels', num_regions=3, batch_size=32, test_batch_size=32, dropout=0.0, save_feats='True')
+17-11-22 06:29:06: Using GPUs [0], from 4 devices available
